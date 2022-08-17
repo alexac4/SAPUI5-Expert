@@ -1,0 +1,9 @@
+<mvc:View controllerName="dtt.SAPUI5.controller.App"
+xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Button id="bt1" text="{i18n>showHelloButtonText}" press=".onShowHello"></Button>
+    <!-- lo que está entre corchetes se llama binding -->
+    <Input id="_IDGenInput1" value="{/recipient/name}"
+                            description="Hello {/recipient/name}"
+                            valueLiveUpdate="true"
+                            width="60%"></Input> 
+</mvc:View>
